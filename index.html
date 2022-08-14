@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restraunt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Kuliner</a></li>
+                <li><a href="#food">Menu</a></li>
+                <li><a href="#food-menu">Resep</a></li>
+            </ul>
+            <h1 class="logo">POOD</h1>
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Pick Your Choice</h1>
+            <p>Tersedia makanan berat, makanan ringan, dan minuman.</p>
+            <a onclick="scrollToTargetAdjusted('food', 90)" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">Hai Guys!</p>
+                <h2>Kalian pernah hunting sebuah kuliner?</h2>
+                <p>
+                    Banyak kuliner-kuliner indonesia yang dapat kita rasakan
+                    di tanah air ini. beberapa diantaranya bisa berupa
+                    makanan berat yaitu nasi pecel ayam, makanan ringan
+                    bisa berupa brownies pandan, dan minuman berupa es
+                    teler.  
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="https://i.postimg.cc/903sMfTv/kuliner.jpg" alt="food" />
+            </div>
+        </div>
+    </section>
+    <section id="food">
+        <h2>Recomendation Food</h2>
+        <div class="food-container container">
+            <div class="food-type fruite">
+                <div class="img-container">
+                    <img src="https://i.postimg.cc/9F24JY6f/food1.webp" alt="error" />
+                    <div class="img-content">
+                        <h3>Makanan Berat</h3>
+                        <a onclick="scrollToTargetAdjusted('berat', 90)" class="btn btn-primary" target="blank">Nasi Pecel Ayam</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="https://i.postimg.cc/J0sCgm17/f3.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Makanan Ringan</h3>
+                        <a onclick="scrollToTargetAdjusted('ringan', 90)" class="btn btn-primary" target="blank">Brownies Pandan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grin">
+                <div class="img-container">
+                    <img src="https://i.postimg.cc/Y2YQ5nqw/food3.jpg" alt="error" />
+                    <div class="img-content">
+                        <h3>Minuman</h3>
+                        <a onclick="scrollToTargetAdjusted('minum', 90)" class="btn btn-primary" target="blank">Es Teler</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Resep Menu</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-description">
+                    <h2 class="food-titile" id="berat">Makanan Berat</h2>
+                    <p>
+                        Resep Nasi Pecel Ayam<br>
+                        <br>
+                        Bahan-Bahan:<br>
+                        Ayam kampung, belah 4 - 1 ekor<br>
+                        Serai - 1 batang<br>
+                        Lengkuas - 2 ruas jari<br>
+                        Daun salam - 2 lembar<br>
+                        Daun jeruk - 3 lembar<br>
+                        Air - 400 ml<br>
+                        Air asam jawa - 3 sdm<br>
+                        Minyak, untuk menggoreng - secukupnya<br>
+                        Nasi putih - 1 mangkok
+                        <br>
+                        Bumbu Halus:<br>
+                        Bawang putih - 4 siung<br>
+                        Bawang merah - 6 butir<br>
+                        Kemiri - 3 butir<br>
+                        Ketumbar - 1 sdm<br>
+                        Kunyit - 3 cm<br>
+                        Jahe - 2 cm<br>
+                        Garam - 1 sdm<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img"></div>
+                <div class="food-description">
+                    <h2 class="food-titile"></h2>
+                    <p>
+                        <br>
+                        <br>
+                        <br>
+                        Sambal:<br>
+                        Bawang putih, iris tipis lalu goreng kering dan haluskan - 2 siung<br>
+                        Bawang merah - 10 butir<br>
+                        Cabai rawit - 10 buah<br>
+                        Cabai merah - 4 buah<br>
+                        Tomat besar - 4 buah<br>
+                        Terasi, bakar - 1/2 sdt<br>
+                        Garam - 1/2 sdt<br>
+                        Gula merah - 1 sdt<br>
+                        Jeruk limau - 1 buah<br>
+                        Minyak, untuk menggoreng - secukupnya<br>
+                        <br>
+                        Pelengkap:<br>
+                        Daun kol - secukupnya<br>
+                        Daun kemangi - secukupnya<br>
+                        Timun - secukupnya<br>
+                        Petai – secukupnya<br>
+                    </p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img"></div>
+                <div class="food-description">
+                    <h2 class="food-titile"></h2>
+                    <p>
+                        Langkah-Langkah<br>
+                        1. Cuci ayam hingga bersih lalu tiriskan.<br>
+                        2. Balurkan bumbu halus ke seluruh permukaan ayam hingga rata.<br>
+                        3. Dalam panci, taruh ayam bersama serai, lengkuas, daun salam, dan daun jeruk. Tuang air lalu masak dengan api sedang (sambil panci ditutup) hingga mendidih dan air menyusut.<br>
+                        4. Balik ayam secara perlahan lalu tuang air asam. Lanjutkan masak hingga air benar-benar habis. Matikan api.<br>
+                        5. Dalam wajan, panaskan banyak minyak. Goreng ayam hingga kuning kecoklatan. Angkat dan tiriskan.<br>
+                        6. Siap disajikan bersama sambal, lalapan (bahan pelengkap), dan nasi putih.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img"></div>
+                <div class="food-description">
+                    <h2 class="food-titile"></h2>
+                    <p>
+                        Langkah-Langkah Membuat Sambal<br>
+                        1. Panaskan minyak.<br>
+                        2. Goreng bawang merah, tomat, cabai merah, dan cabai rawit hingga layu. Angkat.<br>
+                        3. Siapkan cobek. Haluskan bahan-bahan tersbut<br>
+                        4. Tambahkan terasi, garam, gula merah, dan bawang goreng. Aduk rata.<br>
+                        5. Kucuri dengan perasan jeruk limau. Sajikan.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img"></div>
+                <div class="food-description">
+                    <h2 class="food-titile" id="ringan">Makanan Ringan</h2>
+                    <p>
+                        Resep Brownies Pandan <br>
+                        Bahan-Bahan <br>
+                        6 kuning telur <br>
+                        3 putih telur <br>
+                        100 gram gula pasir<br> 
+                        1 sdt cake emulsifier (misalnya TBM, SP, atau Ovalet) <br>
+                        75 gram tepung terigu protein sedang <br>
+                        50 ml santan kental instan <br>
+                        2 sdm air suji pekat sekali <br>
+                        1 tetes pasta pandan <br>
+                        1/4 sdt garam <br>
+                        50 gram cokelat masak putih <br>
+                        lelehkan 1 sdt cokelat pasta<br>
+                    </p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img"></div>
+                <div class="food-description">
+                    <h2 class="food-titile"></h2>
+                    <p>
+                        <br>
+                        <br>
+                        Langkah-Langkah <br>
+                        1. Kocok telur, gula pasir, dan cake emulsifier sampai mengembang. Tambahkan tepung terigu sambil ayak dan aduk rata.<br> 
+                        2. Masukkan santan, air suji, pasta pandan, dan garam sedikit demi sedikit sambil aduk perlahan. <br>
+                        3. Tambahkan cokelat masak putih leleh sedikit-sedikit sembari aduk pelan. Ambil 100 gram adonan. Tambahkan pasta cokelat. Aduk rata. <br>
+                        4. Olesi loyang 24x10x7 sentimeter dengan margarin dan alasi kertas roti. Tuang setengah bagian adonan hijau ke dalam loyang. Kukus selama 10 menit. <br>
+                        5. Tuang adonan cokelat ke atas adonan hijau yang telah dikukus. Kukus kembali selama 5 menit. Angkat. Tuang sisa adonan hijau. Kukus lagi 15 menit sampai semua lapisan matang. <br>
+                        6. Keluarkan brownies dari loyang. Potong sesuai selera. Nikmati brownies kukus pandan cokelat sembari minum kopi.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile" id="minum">Minuman</h2>
+                    <p>
+                        Resep Es Teler <br>
+                        Bahan-Bahan: <br>
+                        150 gr kolang kaling<br>
+                        100 gr kelapa muda<br>
+                        150 gr nangka<br>
+                        150 gr alpukat<br>
+                        100 gr gula pasir<br>
+                        100 ml air<br>
+                        2 lembar daun pandan<br>
+                        ½ sdt garam<br>
+                        50 ml santan<br>
+                        Es serut secukupnya<br>
+                        30 ml Frisian Flag Bendera Kental Manis atau sesuai selera<br>
+                    </p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img"></div>
+                <div class="food-description">
+                    <h2 class="food-titile"></h2>
+                    <p>
+                        Cara membuat: <br>
+                        Rebus kolang kaling hingga empuk<br>
+                        Masak air dan gula pasir, tambahkan daun pandan dan garam<br>
+                        Potong-potong nangka<br>
+                        Belah alpukat, potong sesuai selera<br>
+                        Tuang kolang kaling, nangka, kelapa, dan alpukat ke gelas saji<br>
+                        Tambahkan santan, gula cair, dan es serut<br>
+                        Tambahkan Frisian Flag Bendera Kental Manis yang Nikmat<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        function scrollToTargetAdjusted(id, headerOffset){
+            var element = document.getElementById(id);
+            var elementPosition = element.getBoundingClientRect().top;
+            var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+            });
+        }
+    </script>
+</html>
+
+</body>
+
+</html>
